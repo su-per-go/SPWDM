@@ -1,0 +1,2 @@
+https://doi.org/10.1109/TDSC.2021.3121388
+Robust Detection of Malicious URLs With Self-Paced Wide & Deep Learning

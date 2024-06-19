@@ -1,0 +1,7 @@
+dataset/kaggle_dataset_1/train.csv filter=lfs diff=lfs merge=lfs -text
+dataset/tcn_fm_dataset/train.csv filter=lfs diff=lfs merge=lfs -text
+dataset/tcn_fm_my_feature/train.csv filter=lfs diff=lfs merge=lfs -text
+dataset/untreated_dataset/tcn_fm_dataset/dataset.csv filter=lfs diff=lfs merge=lfs -text
+dataset/untreated_dataset/tcn_fm_my_feature/dataset.csv filter=lfs diff=lfs merge=lfs -text
+dataset/untreated_dataset/guchiopara/html.xlsx filter=lfs diff=lfs merge=lfs -text
+dataset/kaggle_dataset_1_balance/train.csv filter=lfs diff=lfs merge=lfs -text

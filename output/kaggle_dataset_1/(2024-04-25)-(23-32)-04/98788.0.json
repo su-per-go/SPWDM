@@ -1,0 +1,68 @@
+{
+  "args_dict": {
+    "model": "model",
+    "num_epochs": 150,
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.99
+    ],
+    "weight_decay": 0.0001,
+    "logs_dir": "C:\\Users\\zh\\Desktop\\change_file\\new_model\\tests_1/output/logs/kaggle_dataset_1",
+    "dataset_params": {
+      "dataset_path": "C:\\Users\\zh\\Desktop\\change_file\\new_model\\tests_1/dataset/kaggle_dataset_1",
+      "batch_size": 1024,
+      "is_read": {
+        "is_read_url_features": true,
+        "is_read_page_features": false,
+        "is_read_res_features": false,
+        "is_read_dyn_features": false,
+        "to_normalize": false,
+        "state_code": 200
+      },
+      "url_len": 150,
+      "pre_len": 50,
+      "suf_len": 50,
+      "shuffle": true,
+      "train_type": "train_val_test",
+      "fill_style": [
+        "pre",
+        "suf"
+      ]
+    },
+    "model_params": {
+            "the_max_pool_output_size": 16,
+            "tcn_params": {
+                "pre_params": {
+                    "input_size": 16,
+                    "output_size": 128,
+                    "num_channels": [64, 128],
+                    "kernel_size": [3, 5],
+                    "dropout": 0.1
+                },
+                "suf_params": {
+                    "input_size": 16,
+                    "output_size": 128,
+                    "num_channels": [64, 128],
+                    "kernel_size": [3, 5],
+                    "dropout": 0.1
+                }
+            },
+            "mask_atte_params": {
+                "hidden_dim": 128,
+                "num_heads": 16
+            },
+            "sc_attention_params": {
+                "in_size": 32,
+                "local_size": 8,
+                "local_weight": 0.5,
+                "global_weight": 0.5
+            },
+            "feature_fusion_params": {
+                "input_dim": 128,
+                "embed_dim": 64,
+                "pool_dim": 2
+            }
+        }
+  }
+}

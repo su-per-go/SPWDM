@@ -1,0 +1,2 @@
+https://doi.org/10.1016/j.knosys.2022.109955
+TCURL: Exploring hybrid transformer and convolutional neural network on phishing URL detection
