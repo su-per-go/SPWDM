@@ -1,6 +1,6 @@
 ## Overview
 
-SPDM is a scalable model that performs well even in the presence of missing data. The model incorporates four types of inputs: URL prefix, URL suffix, handcrafted features, and handcrafted feature masks. It employs a dual-branch Temporal Convolutional Network (TCN) to extract sequential features from the URL prefix and suffix. By using masked attention, the model extends features across various dimensions, including URL statistical features, response features, HTML features, and dynamic features, thereby enhancing detection accuracy. The architecture of the detection model is illustrated in the following figure.
+SPWDM is a scalable model that performs well even in the presence of missing data. The model incorporates four types of inputs: URL prefix, URL suffix, handcrafted features, and handcrafted feature masks. It employs a dual-branch Temporal Convolutional Network (TCN) to extract sequential features from the URL prefix and suffix. By using masked attention, the model extends features across various dimensions, including URL statistical features, response features, HTML features, and dynamic features, thereby enhancing detection accuracy. The architecture of the detection model is illustrated in the following figure.
 
 ![1](https://github.com/su-per-go/SPDM/blob/master/1.png)
 
