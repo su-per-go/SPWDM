@@ -4,7 +4,7 @@ SPWDM is a scalable model that performs well even in the presence of missing dat
 
 ![1](https://github.com/su-per-go/SPDM/blob/master/1.png)
 
-The [Crawling2024 dataset](https://github.com/su-per-go/SPDM/tree/master/dataset/untreated_dataset/crawling2024) can be found at `SPDM/dataset/untreated_dataset/crawling2024` or downloaded [here]([https://github.com/su-per-go/SPDM/tree/master/dataset/untreated_dataset/crawling2024](https://www.kaggle.com/datasets/haozhang1579/crawling-2024/)). To enhance the dataset, we have included the raw captured data. Additionally, to facilitate dataset expansion, we provide the code for [data capture](https://github.com/su-per-go/crawling_url), [feature extraction, and dataset generation](https://github.com/su-per-go/feature_extra).The architecture for dataset construction is shown in the following figure.
+The [Crawling2024 dataset](https://github.com/su-per-go/SPDM/tree/master/dataset/untreated_dataset/crawling2024) can be found at `SPDM/dataset/untreated_dataset/crawling2024` or downloaded [here](https://www.kaggle.com/datasets/haozhang1579/crawling-2024/). To enhance the dataset, we have included the raw captured data. Additionally, to facilitate dataset expansion, we provide the code for [data capture](https://github.com/su-per-go/crawling_url), [feature extraction, and dataset generation](https://github.com/su-per-go/feature_extra).The architecture for dataset construction is shown in the following figure.
 
 ![2](https://github.com/su-per-go/SPDM/blob/master/2.png)
 
